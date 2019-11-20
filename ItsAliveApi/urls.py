@@ -19,8 +19,17 @@ from django.conf.urls import url, include
 from rest_framework import routers
 from rest_framework.authtoken.views import obtain_auth_token
 from ItsAlive.models import *
+from ItsAlive.views import *
 
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'products', Products, 'product')
+router.register(r'orders', Orders, 'order')
+router.register(r'orderproducts', OrderProducts, 'orderproduct')
+router.register(r'customers', Customers, 'customer')
+router.register(r'users', UserViewSet, 'user')
+router.register(r'products', Products, 'product')
+router.register(r'paymenttypes', PaymentTypes, 'paymenttype')
+
 
 urlpatterns = [
     url(r'^', include(router.urls)),
