@@ -1,0 +1,12 @@
+[
+    {
+        "model": "ItsAlive.customer",
+        "pk": 1,
+        "fields": {
+            "email": "samsponSimpson@mrNiceGuy.com",
+            "phone_number": "6156264710",
+            "address": "1019 South St",
+            "user_id": 1
+        }
+    }
+]

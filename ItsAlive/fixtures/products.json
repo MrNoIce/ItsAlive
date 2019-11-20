@@ -1,0 +1,54 @@
+[
+    {
+        "model": "ItsAlive.product",
+        "pk": 1,
+        "fields": {
+            "name": "Tasty Basty",
+            "price": "10.00",
+            "description": "aqaa",
+            "quantity": 224,
+            "created_at": "2019-10-09T18:13:37.817130Z",
+            "product_image": null,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "ItsAlive.product",
+        "pk": 2,
+        "fields": {
+            "name": "Art1",
+            "price": "14.00",
+            "description": "qqq",
+            "quantity": 355,
+            "created_at": "2019-10-09T18:55:12.432980Z",
+            "product_image": null,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "ItsAlive.product",
+        "pk": 3,
+        "fields": {
+            "name": "Art2",
+            "price": "234.00",
+            "description": "aaaa",
+            "quantity": 23,
+            "created_at": "2019-10-09T18:55:24.055223Z",
+            "product_image": null,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "ItsAlive.product",
+        "pk": 4,
+        "fields": {
+            "name": "Music1",
+            "price": "234.00",
+            "description": "qqq",
+            "quantity": 22,
+            "created_at": "2019-10-09T18:55:35.815436Z",
+            "product_image": null,
+            "user_id": 1
+        }
+    }
+]

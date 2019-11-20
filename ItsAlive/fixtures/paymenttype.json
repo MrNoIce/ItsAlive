@@ -1,0 +1,9 @@
+[
+    {
+        "model": "ItsAlive.paymenttype",
+        "pk": 1,
+        "fields": {
+            "merchant_name": "MASTER CARD"
+        }
+    }
+]
