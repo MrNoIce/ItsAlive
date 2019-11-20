@@ -7,7 +7,7 @@ class Order(models.Model):
     """
     Creates the join table for the many to many relationship between paymenttype and customer
     methods: none
-    """
+    """ 
 
     created_at = models.DateTimeField(auto_now_add=True)
     customer = models.ForeignKey("Customer", on_delete=models.CASCADE)
@@ -15,5 +15,5 @@ class Order(models.Model):
     product = models.ManyToManyField("Product", through="OrderProduct")
 
     class Meta:
-            verbose_name = ("order")
-            verbose_name_plural = ("orders")
+        verbose_name = ("order")
+        verbose_name_plural = ("orders")
