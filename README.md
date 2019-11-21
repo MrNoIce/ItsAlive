@@ -17,8 +17,8 @@ Enable a virtual environment at the level above this project. <br>
 
 Use the following commands in your terminal:
 ```
-virtualenv env
-source env/bin/activate
+python -m venv ItsAliveENV
+source ./ItsAliveENV/bin/activate
 ```
 
 2. Now you use pip to install all of the packages needed for this project.
