@@ -27,7 +27,7 @@ router.register(r'orders', Orders, 'order')
 router.register(r'orderproducts', OrderProducts, 'orderproduct')
 router.register(r'customers', Customers, 'customer')
 router.register(r'users', UserViewSet, 'user')
-router.register(r'products', Products, 'product')
+router.register(r'products', Products, 'products')
 router.register(r'paymenttypes', PaymentTypes, 'paymenttype')
 
 

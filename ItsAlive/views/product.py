@@ -26,7 +26,6 @@ class ProductSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class Products(ViewSet):
-    """Products for Its Alive API"""
 
     def create(self, request):
         """Handle POST operations
